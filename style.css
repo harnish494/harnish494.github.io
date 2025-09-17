@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&family=Quicksand');/*imports a font from google fonts*/
+body{
+    text-align: center;/*this places all the body text to be alined in the center */
+    font-size: 55px;/*sets all the body text to a font size of 55px*/
+    background-color:rgb(250, 175, 131);/*sets the background color of the website to orange*/
+}
+
+h1{
+    font-family:'Quicksand';/*sets the first heading to the font quick sand*/
+    font-size: 100px;/*sets the first heading to a size of 100px*/
+    color:rgb(255, 255, 255) ;/*sets the font color of the first heading to white*/
+
+}
+
+.thumbnail{
+    width:62%;/*this makes the thumbnail image expand to the size of 62%*/
+    border-radius:70px ;/*rounds off the edges of the image*/
+}
+
+p{
+    font-family:'Quicksand';/*sets the paragraph writing to the font quick sand*/
+    font-size: 30px;/*sets the font to a size of 30px*/
+    text-align: center;/*aligns the text to the center of the page*/
+    margin-left:350px ;/*creates a left margin of 350px*/
+    margin-right:1000px ;/*creates a right margin of 1000px*/
+    color:rgb(255, 255, 255) ;/*sets the font colour to white*/
+}
+
+span{
+    font-family:'Quicksand';/*sets the span element to the font quicksand*/
+    font-size: 40px;/*sets the font size to 40px*/
+    text-decoration:none;/*states that there is no decoration on the text such as underlineing*/
+}
+
+.hills{
+    width:35%;/*increases the images size by 35 %*/
+    margin-right: 700px;/*creates a right margin of 700px*/
+    margin-left: 900px;/*creates a left margin of 900px*/
+    margin-top:-438px;/*creates a top margin of -438px*/
+    text-align: center;/*aligns the image to the center of the page*/
+    border-radius:70px ;/*rounds off the corners of the image*/
+}
+
+h2{
+    font-family:'Quicksand';/*sets the second heading to a font of quicksand*/
+    text-align: left;/*aligns the image to the left of the page*/
+    color:rgb(255, 255, 255) ;/*sets the font colour to white*/
+    margin-left: 420px ;/*creates a left margin of 420px*/
+    font-size: 70px;/*sets the font to a size of 70px*/
+}
+
+h3{
+    font-family:'Quicksand';/*sets the third heading to a font of quicksand*/
+    text-align: right;/*aligns the image to the right of the page*/
+    color:rgb(255, 255, 255) ;/*sets the font colour to white*/
+    margin-right: 420px ;/*creates a right margin of 420px*/
+    margin-top: -150px;/*creates a top margin of -150px*/
+    font-size: 70px;/*sets the font to a size of 70px*/
+}
+
+.town{
+    margin-left:-645px;/*creates a left margin of -645px*/
+    width: 30%;/*creates a width of 30% on the image*/
+    border-radius:70px;/*rounds off the corners of the image*/
+    margin-top: -50px;/*creates a top margin of -50px*/
+}
+
+
+.castle{
+    margin-right:-670px;/*creates a right margin of -670px*/
+    width: 33.4%;/*creates a width of 33.4% on the image*/
+    border-radius:70px;/*rounds off the corners of the image*/
+    margin-top: -200px;/*creates a top margin of -200px*/
+    margin-left: 55px;/*creates a left margin of 55px*/
+}
+
+.p1{
+    font-family:'Quicksand';/*sets the first paragraph to a font of quicksand*/
+    font-size: 30px;/*sets the font to a size of 30px*/
+    text-align: center;/*aligns the image to the center of the page*/
+    margin-left:1000px ;/*creates a left margin of 1000px*/
+    margin-right:350px ;/*creates a right margin of 350px*/
+    margin-top: -370;/*creates a top margin of -370px*/
+    color:rgb(255, 255, 255) ;/*sets the font colour to white*/
+}
+
+.rouselink{
+  margin-left: 50;/*creates a left margin of 50px*/
+  margin-right: 175;/*creates a right margin of 175px*/
+  font-family:'Quicksand';/*sets the link to a font of quicksand*/
+  font-size: 50px;/*sets the font to a size of 50px*/
+  color:rgb(250, 175, 131);/*sets the font colour to light orange*/
+  background-color:rgb(255, 255, 255);/*sets the font colour to white*/
+  text-decoration: none;/*states that there is no decoration on the text such as underlineing*/
+  border-radius: 70px;/*rounds off the corners of the link*/
+  width:325px;/*creates a width of 325px on the link*/
+  padding-top:5px;/* creates a padding of 5px on the top of the link*/
+  padding-right:10px;/* creates a padding of 10px on the right of the link*/
+  padding-left:10px;/* creates a padding of 10px on the left of the link*/
+  padding-bottom:5px;/* creates a padding of 5px on the bottom of the link*/
+}
+.rouselink:hover{/*states that when the mouse hovers over the link*/
+  font-display:fallback;/*the font display will fall back*/
+  border:15px solid rgb(255, 255, 255);/*the white border will increase to a size of 15px*/
+}
+
+.castlelink{
+    margin-right:50;/*creates a right margin of 50px*/
+    margin-left: 175;/*creates a leftt margin of 175px*/
+    font-family:'Quicksand';/*sets the link to a font of quicksand*/
+    font-size: 50px;/*sets the font to a size of 50px*/
+    color:rgb(250, 175, 131) ;/*sets the font colour to light orange*/
+    text-decoration: none;/*states that there is no decoration on the text such as underlineing*/
+    background-color:rgb(255, 255, 255);/*sets the font colour to white*/
+    border-radius: 70px;/*rounds off the corners of the link*/
+    padding-top:5px;/* creates a padding of 5px on the top of the link*/
+    padding-right:10px;/* creates a padding of 10px on the right of the link*/
+    padding-left:10px;/* creates a padding of 10px on the left of the link*/
+    padding-bottom:5px;/* creates a padding of 5px on the bottom of the link*/
+  }
+  .castlelink:hover{/*states that when the mouse hovers over the link*/
+  font-display:fallback;/*the font display will fall back*/
+  border:15px solid rgb(255, 255, 255);/*the white border will increase to a size of 15px*/
+}
+
+  .thumbnailrouse{
+    width:60%;/*creates a width of 60% on the image*/
+    border-radius:70px ;/*rounds off the corners of the link*/
+}
+.img2{
+    width:29%;/*creates a width of 29% on the image*/
+    margin-right: 650px;/*creates a right margin of 650px*/
+    margin-left: 950px;/*creates a left margin of 950px*/
+    margin-top:-350px;/*creates a top margin of -350px*/
+    text-align: center;/*aligns the image to the center of the page*/
+    border-radius:70px ;/*rounds off the corners of the link*/
+
+}
+
+.reading-cinemas{
+    margin-right:-670px;/*creates a right margin of 650px*/
+    width: 25%;/*creates a width of 25% on the image*/
+    border-radius:70px;/*rounds off the corners of the link*/
+    margin-top: -400px;/*creates a top margin of -400px*/
+    margin-left: 55px;/*creates a left margin of 55px*/
+}
+.shopping{
+    margin-left:-700px;/*creates a left margin of -700px*/
+    width: 25%;/*creates a width of 25% on the image*/
+    border-radius:70px;/*rounds off the corners of the link*/
+    margin-top: -100px;/*creates a top margin of -100px*/
+}
+.shoppingtext{
+    font-family:'Quicksand';/*sets the link to a font of quicksand*/
+    font-size: 30px;/*sets the font to a size of 30px*/
+    text-align: center;/*aligns the image to the center of the page*/
+    margin-left:400px ;/*creates a left margin of 400px*/
+    margin-right:1000px ;/*creates a right margin of 1000px*/
+    color:rgb(255, 255, 255) ;/*sets the font colour to white*/
+}
+.cinema{
+    font-family:'Quicksand';/*sets the link to a font of quicksand*/
+    font-size: 30px;/*sets the font to a size of 30px*/
+    text-align: center;/*aligns the image to the center of the page*/
+    margin-right:445px ;/*creates a right margin of 445px*/
+    margin-left:950px ;/*creates a left margin of 950px*/
+    margin-top:-310px ;/*creates a top margin of -310px*/
+    color:rgb(255, 255, 255) ;/*sets the font colour to white*/
+}
+.rousehillmainpage{
+    font-family:'Quicksand';/*sets the link to a font of quicksand*/
+    font-size: 30px;/*sets the font to a size of 30px*/
+    text-align: center;/*aligns the image to the center of the page*/
+    margin-left:400px ;/*creates a left margin of 400px*/
+    margin-right:950px ;/*creates a right margin of 950px*/
+    color:rgb(255, 255, 255) ;/*sets the font colour to white*/
+}
+h4{
+    font-family:'Quicksand';/*sets the link to a font of quicksand*/
+    text-align: left;/*aligns the image to the left of the page*/
+    color:rgb(255, 255, 255) ;/*sets the font colour to white*/
+    margin-left: 485px ;/*creates a left margin of 485px*/
+    font-size: 70px;/*sets the font to a size of 70px*/
+    margin-bottom:10 ;/*creates a bottom margin of 10*/
+}
+h5{
+    font-family:'Quicksand';/*sets the link to a font of quicksand*/
+    text-align: right;/*aligns the image to the right of the page*/
+    color:rgb(255, 255, 255) ;/*sets the font colour to white*/
+    margin-right: 540px ;/*creates a right margin of 540px*/
+    margin-top: -100px;/*creates a top margin of -100px*/
+    font-size: 70px;/*sets the font to a size of 70px*/
+}
+h6{
+    font-family:'Quicksand';/*sets the link to a font of quicksand*/
+    text-align: left;/*aligns the image to the left of the page*/
+    color:rgb(255, 255, 255) ;/*sets the font colour to white*/
+    margin-left: 520px ;/*creates a left margin of 520px*/
+    font-size: 70px;/*sets the font to a size of 70px*/
+    margin-bottom:10 ;/*creates a bottom margin of 10*/
+}
+
+.thumbnailcastle{
+    width:59%;/*creates a width of 59% on the image*/
+    border-radius:70px ;/*rounds off the corners of the link*/
+}
+.navbar1{
+    display: flex;/*changes the display element of the navbar*/
+    align-items: center;/*aligns the items to the center of the page*/
+    background-color: rgb(255, 255, 255);/*sets the background colour to white*/
+    padding: 10px 20px;
+}
+
+.navbar1 a {
+    font-family:'Quicksand';/*sets the link to a font of quicksand*/
+    color: rgb(255, 159, 70);/*sets the colour to light orange*/
+    text-decoration: none;/*states that there is no decoration on the text such as underlineing*/
+    font-size: 40px;/*sets the font to a size of 40px*/
+    font-weight: bold;/*makes the text bold*/
+    margin-left: auto;/*creates a left margin of auto*/
+    margin-right: auto;/*creates a right margin of auto*/
+  }
+
+  .navbar1-links {
+    display: flex;/*changes the display element of the navbar*/
+  }
+  .navbar1-links:hover{
+    background-color:  rgb(255, 255, 255);/*sets the background colour to white*/
+  }
